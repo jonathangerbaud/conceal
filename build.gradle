@@ -45,7 +45,7 @@ android {
 }
 
 // Configure gradle.properties to do maven builds
-if (!project.hasProperty('sonatypeRepo') ||
+/*if (!project.hasProperty('sonatypeRepo') ||
     !project.hasProperty('sonatypeUsername') ||
     !project.hasProperty('sonatypePassword')) {
   return;
@@ -108,4 +108,4 @@ uploadArchives {
             }
         }
     }
-}
+}*/
